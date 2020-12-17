@@ -1,3 +1,8 @@
 .fab {
   color: #c9f5dc;
 }
+
+.fab:hover {
+  color: rgb(144, 209, 171);
+  transition: 0.2s ease-in;
+}
