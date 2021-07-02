@@ -1,0 +1,4 @@
+:root {
+  --color-background-dark: hsla(0, 1%, 17%, 1);
+  --color-background-dark-gradient: hsla(0, 1%, 17%, .5);
+}
