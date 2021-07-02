@@ -5,16 +5,16 @@
 }
 
 .card {
-  flex: 1 0 26%; /* grow shrink basis */
+  flex: 1 0 0%; /* grow shrink basis */
 }
 
 @media ( max-width: 720px) {
   .card {
-    flex-basis: 34%;
+    flex-basis: 26%;
   }
 }
 
-@media ( max-width: 320px) {
+@media ( max-width: 400px) {
   .card {
     flex-basis: 51%;
   }
