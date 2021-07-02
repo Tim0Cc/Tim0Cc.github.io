@@ -11,12 +11,10 @@ nav {
 
 nav .flex-container {
   justify-content: space-between;
+  margin: .5rem;
 }
 
 nav ul {
-  /* max-width: 100vw; */
-  /* min-width: 80vw; */
-  /* margin: 1rem auto; */
   padding: 0;
   list-style: none;
 }
