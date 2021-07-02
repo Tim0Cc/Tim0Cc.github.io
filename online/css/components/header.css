@@ -1,0 +1,43 @@
+header {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+
+header h1, #banner p {
+  color: white;
+  margin: 0 auto;
+  text-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+
+  /* Header */
+  header {
+    position: absolute;
+    top: 30%
+    left: 10%;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  header p {
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+  
+}
