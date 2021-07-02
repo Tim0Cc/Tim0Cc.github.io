@@ -13,10 +13,16 @@
 @import url("components/button.css");
 @import url("components/icons.css");
 
+:root {
+  font-family: Open Sans;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
-  font-family: Open Sans;
 }
 
 h1, h2, h3, h4 {
@@ -34,26 +40,26 @@ p {
 }
 
 .container {
-  width: 900px;
-  margin: auto;
+  max-width: 80vw;
+  margin: 0 auto;
 }
 
 .container h2 {
   text-align: center;
 }
-
+/* 
 @media (max-width: 960px) {
   .container {
-    width: 700px;
+    max-width: 90vw;
   }
-}
+} */
 @media (max-width: 720px) {
   .container {
-    width: 500px;
+    max-width: 90vw;
   }  
 }
 @media (max-width: 540px) {
   .container {
-    width: 300px;
+    max-width: 96vw;
   }
 }

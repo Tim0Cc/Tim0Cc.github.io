@@ -1,4 +1,32 @@
-.cards {
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 0 26%; /* grow shrink basis */
+}
+
+@media ( max-width: 720px) {
+  .card {
+    flex-basis: 34%;
+  }
+}
+
+@media ( max-width: 320px) {
+  .card {
+    flex-basis: 51%;
+  }
+}
+
+/* non-essential demo styles */
+/* .card {
+  height: 50px;
+  background-color: lightgreen;
+  border: 2px solid white;
   display: flex;
   justify-content: center;
-}
+  align-items: center;
+  font-size: 1.2em;
+} */
