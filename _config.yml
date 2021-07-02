@@ -26,6 +26,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://tim0cc.github.io/
 github_username:  Tim0Cc
 
+collections:
+  - projects
+
 # Build settings
 # theme: minima
 # plugins:
