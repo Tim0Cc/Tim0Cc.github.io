@@ -23,7 +23,7 @@ email: Tim0C@gmx.de
 description: >- # this means to ignore newlines until "baseurl:"
   Portfolio-Page – Fullstack Web-Developer Tim Cc
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://tim0cc.github.io/
+url: https://tim0cc.github.io
 github_username:  Tim0Cc
 
 collections:
