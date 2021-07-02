@@ -1,5 +1,5 @@
 ---
   title: Fenster Reparatur München
-  image_link: https://www.fensterreparaturmuenchen.de/wp-content/uploads/2020/04/fensterreparaturmuenchen.de_-scaled.jpg
+  image_link: ./assets/images/fensterreparaturmuenchen.png
   page_link: https://www.fensterreparaturmuenchen.de/
 ---
