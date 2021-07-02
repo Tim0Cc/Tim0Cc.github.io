@@ -3,7 +3,7 @@
     <div class="flex-container">
       {% for project in site.projects %}
       <div class="card">
-        <img src="{{ project.image_link }}" alt="">
+        <img src="{{site.url}}/{{ project.image_link }}" alt="">
         <h3>{{ project.title }}</h3>
         <a href="{{ project.page_link }}" target="blank">www.fensterreparaturmuenchen.de</a>
       </div>
