@@ -2,14 +2,14 @@
   <div class="cards">
     <div class="flex-container">
       {% for project in site.projects %}
-      <a href="{{ project.page_link }}" target="blank">
-        <div class="card">
+      <div class="card">
+          <a href="{{ project.page_link }}" target="blank">
           <img src="{{ project.image_link }}" alt="">
           <div class="card-title">
             <h3>{{ project.title }}</h3>
           </div>
+        </a>
         </div>
-       </a>
       {% endfor %}
     </div>
   </div>
