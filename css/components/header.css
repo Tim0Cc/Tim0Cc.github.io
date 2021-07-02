@@ -1,5 +1,3 @@
-
-
 header {
   position: absolute;
   top: 30%;
@@ -20,4 +18,26 @@ header h1 {
 header p {
   font-size: 18px;
   margin-bottom: 18px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+
+  /* Header */
+  header {
+    position: absolute;
+    top: 30%
+    left: 10%;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  header p {
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+  
 }
